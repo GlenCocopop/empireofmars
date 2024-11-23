@@ -5,7 +5,7 @@ description: "Official Website of the Sovereign Empire of Mars"
 remote_theme: pages-themes/architect@v0.2.0
 
 include:
-  - assets/css/style.css
+  - assets/css/style.scss
 
 # URL Configuration
 baseurl: "" # Leave empty unless the site is in a subdirectory
