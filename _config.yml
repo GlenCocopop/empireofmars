@@ -1,6 +1,9 @@
 title: "Empire of Mars"
 description: "Official Website of the Sovereign Empire of Mars"
-theme: jekyll-theme-architect
+
+# Theme configuration
+remote_theme: pages-themes/architect@v0.2.0
+
 # URL Configuration
 baseurl: "" # Leave empty unless the site is in a subdirectory
 url: "https://glencocopop.github.io/empireofmars/" # Replace with your GitHub Pages URL
@@ -32,7 +35,8 @@ markdown: kramdown
 kramdown:
   input: GFM # GitHub Flavored Markdown
 
-# Plugins (Optional)
+# Plugins
 plugins:
+  - jekyll-remote-theme # Required for remote themes
   - jekyll-seo-tag # For better SEO
   - jekyll-sitemap # Generates a sitemap.xml file for search engines
