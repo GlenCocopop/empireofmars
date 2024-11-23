@@ -9,16 +9,16 @@ body {
 
 /* Hero-sektionen */
 .hero {
-    background: url('https://glencocopop.github.io/empireofmars/assets/IMG_6116.jpeg') no-repeat center center/cover; /* Flagga eller Mars-bild */
+    background: url('https://glencocopop.github.io/empireofmars/assets/IMG_6116.jpeg') no-repeat center center/cover; /* Samma hero-bild */
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
+    color: #ffd700; /* Guldtext */
 }
 
-/* Semi-transparent överläggning */
 .hero::before {
     content: "";
     position: absolute;
@@ -26,27 +26,24 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent svart överläggning */
-    z-index: 1; /* Lägger den bakom texten */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent överläggning */
+    z-index: 1;
 }
 
 .hero-content {
     position: relative; /* Placera texten ovanpå överläggningen */
-    z-index: 2; /* Högre än överläggningen */
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Förbättrad skugga för läsbarhet */
+    z-index: 2;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Textskugga för läsbarhet */
 }
 
-/* Textstil i hero-sektionen */
 .hero h1 {
     font-size: 4em; /* Stor rubrik */
     margin: 0;
-    color: #ffd700; /* Guldtext */
 }
 
 .hero p {
     font-size: 1.5em; /* Mindre undertext */
     margin: 0;
-    color: #ffffff; /* Vit undertext */
 }
 
 /* Navigation */
