@@ -1,3 +1,11 @@
+---
+---
+
+/* Import the default Architect theme styles */
+@import "{{ site.theme }}";
+
+/* Custom styles for the Empire of Mars */
+
 /* Bakgrund och text */
 body {
   background-color: #1a1a1a; /* Mörk bakgrund för en rymdkänsla */
@@ -50,6 +58,7 @@ footer {
   font-size: 0.9em;
 }
 
+/* Hero-sektionen */
 .hero {
   background: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Mars_North_Pole.jpg') no-repeat center center/cover;
   height: 60vh;
