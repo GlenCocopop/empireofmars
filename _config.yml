@@ -1,0 +1,38 @@
+title: "Empire of Mars"
+description: "Official Website of the Sovereign Empire of Mars"
+theme: jekyll-theme-architect
+# URL Configuration
+baseurl: "" # Leave empty unless the site is in a subdirectory
+url: "https://glencocopop.github.io/empireofmars/" # Replace with your GitHub Pages URL
+
+# Navigation Links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "The Emperor"
+    url: "/emperor/"
+  - title: "Principalities"
+    url: "/principalities/"
+  - title: "Constitution"
+    url: "/constitution/"
+  - title: "Flag"
+    url: "/flag/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social Media Links (Optional)
+social_links:
+  - title: "Twitter"
+    url: "https://twitter.com/your-handle"
+  - title: "Instagram"
+    url: "https://instagram.com/your-handle"
+
+# Markdown Settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+
+# Plugins (Optional)
+plugins:
+  - jekyll-seo-tag # For better SEO
+  - jekyll-sitemap # Generates a sitemap.xml file for search engines
