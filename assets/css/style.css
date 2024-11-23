@@ -9,7 +9,7 @@ body {
 
 /* Hero-sektionen */
 .hero {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Mars_North_Pole.jpg') no-repeat center center/cover; /* Flagga eller Mars-bild */
+    background: url('assets/IMG_6116.jpeg') no-repeat center center/cover; /* Flagga eller Mars-bild */
     height: 60vh;
     display: flex;
     justify-content: center;
