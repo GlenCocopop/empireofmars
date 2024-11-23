@@ -149,6 +149,17 @@ ul {
     margin-left: 20px;
 }
 
+/* Standardlänkar */
+a {
+    color: #ffd700; /* Guld för kejserligt tema */
+    text-decoration: none;
+    font-weight: bold; /* Gör länkarna mer framträdande */
+}
+
+/* Hover-effekt för länkar */
+a:hover {
+    text-decoration: underline; /* För en subtil effekt vid hover */
+}
 
 /* Footer */
 footer {
