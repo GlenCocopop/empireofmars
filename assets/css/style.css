@@ -117,6 +117,39 @@ main p {
     transform: scale(1.1); /* Zooma in lite vid hover */
 }
 
+/* Main content styling */
+main {
+    max-width: 800px; /* Begränsad bredd för bättre läsbarhet */
+    margin: 20px auto; /* Centrerad layout men vänsterjusterad text */
+    padding: 20px;
+    text-align: left;
+    line-height: 1.8; /* Bättre avstånd mellan rader */
+    font-size: 1rem; /* Normalstorlek för text */
+    color: #ffffff; /* Vit text */
+}
+
+main h2 {
+    color: #e63946; /* Mars-rött */
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #ffd700; /* Guld för citat */
+    padding-left: 15px;
+    border-left: 3px solid #ffd700; /* Vertikal linje för att markera citat */
+}
+
+ul {
+    list-style-type: disc; /* Standard punkter */
+    margin-left: 20px;
+}
+
+
 /* Footer */
 footer {
     background-color: #333333;
