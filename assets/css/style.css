@@ -1,35 +1,76 @@
+/* Bakgrund och text */
 body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Mörk bakgrund */
+    color: #ffffff; /* Vit text */
+    font-family: 'Merriweather', serif; /* Elegant och officiellt typsnitt */
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #800000;
+/* Hero-sektionen */
+.hero {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Mars_North_Pole.jpg') no-repeat center center/cover; /* Flagga eller Mars-bild */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffd700; /* Guld för kejserligt tema */
+    text-align: center;
+}
+
+.hero-content {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Liten skugga för läsbarhet */
+}
+
+.hero h1 {
+    font-size: 4em; /* Stor rubrik */
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em; /* Mindre undertext */
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #800000; /* Mars-rött */
     color: #ffd700;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 nav a {
     color: #ffd700;
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* Main content */
 main {
     padding: 20px;
+    text-align: center;
 }
 
+main h2 {
+    color: #e63946; /* Mars-rött */
+    margin-top: 20px;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Footer */
 footer {
     background-color: #333333;
     color: #aaaaaa;
     text-align: center;
     padding: 10px;
+    font-size: 0.9em;
 }
